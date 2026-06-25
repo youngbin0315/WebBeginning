@@ -2,20 +2,20 @@
 코디세이 본 과정 4-1 / 웹 기초 완성, 나만의 포트폴리오 구축
 ---
 
-# 🚀 순수 HTML/CSS/JS 기반 반응형 포트폴리오 웹사이트
+# 순수 HTML/CSS/JS 기반 반응형 포트폴리오 웹사이트
 
 외부 프레임워크나 라이브러리(React, Tailwind, jQuery 등) 없이, 순수 웹 표준 기술(**Vanilla 웹스택**)만을 사용하여 구현한 인터랙티브 반응형 포트폴리오입니다. 웹의 핵심 동작 원리인 **"사용자 이벤트 → 상태 변경 → DOM 조작"**의 흐름을 직접 제어하도록 설계되었습니다.
 
 ---
 
-## 🛠️ 사용 기술 및 개발 환경
+## 사용 기술 및 개발 환경
 - **Language & Markup:** HTML5 (Semantic Markup), CSS3, JavaScript (ES6+)
 - **Environment & Tools:** VS Code, Live Server, Git / GitHub Pages
 - **API 연동:** GitHub REST API
 
 ---
 
-## ✨ 핵심 기능 및 구현 세부 사양
+## 핵심 기능 및 구현 세부 사양
 1. **반응형 레이아웃 (모바일 퍼스트)**
    - `Flexbox`를 활용하여 글로벌 네비게이션바 레이아웃 구조화.
    - `Grid`의 `auto-fit` 및 `minmax(300px, 1fr)`를 사용하여 Projects 카드가 디바이스 너비에 맞춰 유연하게 변형되도록 구현.
@@ -36,7 +36,7 @@
 
 ---
 
-## 📂 프로젝트 구조
+## 프로젝트 구조
 ```text
 ├── index.html         # 웹페이지 구조 정의 (시맨틱 태그 활용)
 ├── css/
